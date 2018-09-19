@@ -153,7 +153,6 @@ try:
 except:
     os.remove(dPath+"Published_Export.xlsx")
     os.rename(Pub,dPath+"Published_Export.xlsx")    
-        
-        
+            
 browser.execute_script("""javascript:__doPostBack('ctl00$hlnkLogout','')""") # Click Logout
-browser.quit() # Close Crome Applicationb
+browser.quit() # Close Crome Application
